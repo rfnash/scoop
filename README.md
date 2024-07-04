@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/rfnash/scoop/actions/workflows/ci.yml/badge.svg)](https://github.com/rfnash/scoop/actions/workflows/ci.yml) [![Excavator](https://github.com/rfnash/scoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/rfnash/scoop/actions/workflows/excavator.yml)
 
-My [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for [Scoop](https://scoop.sh), the Windows command-line installer.
+My personal [bucket](https://github.com/lukesampson/scoop/wiki/Buckets) for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## How do I install these manifests?
 
