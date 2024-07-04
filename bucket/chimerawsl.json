@@ -6,6 +6,7 @@
     "license": "MIT",
     "notes": "Even when you are logging in as 'root', some operations (like service command) require Windows administrator privileges",
     "url": "https://github.com/tranzystorekk/ChimeraWSL/releases/download/r20240613-1/Chimera.zip",
+    "hash": "8f64ed830e77cd7dd34f00f9d433adb1554d5f8a9e94173a23997540c8dd955e",
     "post_install": [
         "$installable = $true",
         "if ($null -eq (Get-Command 'wslconfig' -ErrorAction SilentlyContinue)) {",
