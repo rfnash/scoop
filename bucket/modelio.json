@@ -1,0 +1,32 @@
+{
+    "homepage": "https://www.modelio.org/",
+    "description": "Modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering.",
+    "license": "GPL-3.0-only",
+    "version": "5.4.1",
+    "url": "https://github.com/ModelioOpenSource/Modelio/releases/download/v5.4.1/Modelio-Open-Source-5.4.1_64.exe",
+    "hash": "1b1679ef75c968ab22ca4b06c04110c01883a48eeb1c0034041c0b974ba80216",
+    "installer": {
+        "args" : [ "/S", "/D=$original_dir" ]
+    },
+    "uninstaller": {
+        "file": "uninstaller.exe"
+    },
+    "shortcuts": [
+        [
+            "modelio.exe",
+            "Modelio"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ModelioOpenSource/Modelio"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ModelioOpenSource/Modelio/releases/download/v$version/Modelio-Open-Source-$version_64.exe",
+        "shortcuts": [
+            [
+                "Modelio-Open-Source-5.4.1_64.exe",
+                "Modelio"
+            ]
+        ]
+    }
+}
